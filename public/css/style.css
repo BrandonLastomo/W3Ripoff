@@ -1,0 +1,232 @@
+@font-face {
+  font-family: gt-walsheim;
+  src: url(../font/gt-walsheim/GTWalsheimPro-Light.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(public/font/montserrat/Montserrat-Light.ttf) format('truetype');
+  }
+
+@font-face {
+  font-family: "Consolas";
+  src: url(public/font/consolas/Consolas.ttf) format('truetype');
+  }
+
+@font-face {
+  font-family: "Poppins";
+  src: url(public/font/poppins/Poppins-Regular.otf) format('truetype');
+}
+
+body {
+  font-family: gt-walsheim, sans-serif;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+  
+.form-registration input{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+#item_edit_desc{
+  height: 100px;
+}
+
+.text-brown{
+  color: #9E7676;
+}
+
+.text-brown:hover{
+  color: #7f5f5f;
+}
+
+.text-brown:active{
+  color: #7f5f5f;
+}
+
+.text-green{
+  color: #5D9C59;
+}
+
+.text-green:hover{
+  color: #4f6251 !important;
+}
+
+.text-green:active{
+  color: #4f6251 !important;
+}
+
+.btn-brown{
+  background-color: #9E7676;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.btn-brown:hover{
+  background-color: #7f5f5f !important;
+  color: white !important;
+}
+
+.btn-brown:active{
+  background-color: #7f5f5f !important;
+  color: white !important;
+}
+
+.btn-green{
+  background-color: #5D9C59;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.btn-green:hover{
+  background-color: #4f6251 !important;
+  color: white !important;
+}
+
+.btn-green:active{
+  background-color: #4f6251 !important;
+  color: white !important;
+}
+
+.btn-red{
+  background-color: #DF2E38;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.btn-red:hover{
+  background-color: #914d4d !important;
+  color: white !important;
+}
+
+.btn-red:active{
+  background-color: #914d4d !important;
+  color: white !important;
+}
+
+.navbar-brown{
+  background-color: #9E7676;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #9E7676; 
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #9E7676;
+    border-color: #9E7676;
+}
+
+a.disabled{
+  pointer-events: none;
+  cursor: default;
+}
+
+.btn-disabled{
+  pointer-events: none;
+  cursor: default;
+  color: lightgray;
+}
+
+
+
+#variable {
+    color: #31e1f7;
+}
+
+#echo {
+    color: #fdff00;
+}
+
+#if {
+    color: #A149FA;
+}
+
+#number {
+    color: #9cff2e;
+}
+
+#string {
+    color: #f57328;
+}
+
+#kurung1 {
+    color: #FFB200;
+}
+
+#reminder {
+    color: gray;
+    font-size: 13px;
+}
+
+header a { 
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#nav {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    padding: 148px 0px 200px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#content { 
+    font-family: "Montserrat", sans-serif;
+    margin: 70px 200px 0px 200px;
+}
+
+#courseList { 
+    font-family: "Montserrat", sans-serif;
+    margin: 70px 100px 0px 100px;
+}
+
+header h1{
+    font-size: 130px;
+}
+
+header h5{
+    font-weight: 600;
+}
+
+#main.title {
+    font-weight: 900;
+}
+
+form input{
+    width: 50px;
+}
+
+#program {
+    font-family: "Consolas", sans-serif;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+}
